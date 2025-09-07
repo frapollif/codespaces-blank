@@ -3,7 +3,6 @@
 const cells = document.querySelectorAll('.cell');
 
 
-
 // cell.addEventListener('click', (e) => {
 //     const target = e.target;
 //     console.log(target);
