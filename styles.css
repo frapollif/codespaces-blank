@@ -1,0 +1,35 @@
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    height: 100vh;
+
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: solid 4px black;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active {
+    background-color: yellow;
+    
+    
+}
+
+.green {
+    background-color: green;
+    cursor: not-allowed;
+}
+
+
